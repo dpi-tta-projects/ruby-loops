@@ -16,19 +16,3 @@
 #   7
 #   You guessed the secret number! Yay!
 #
-
-secret_number = (1..10).to_a.sample
-guess = nil
-
-while guess != secret_number do
-  puts "Guess the secret number:"
-  guess = gets.chomp.to_i
-
-  if guess > secret_number
-    puts "That's too high."
-  elsif guess < secret_number
-    puts "That's too low."
-  else
-    puts "You guessed the secret number! Yay!"
-  end
-end

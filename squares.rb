@@ -10,7 +10,3 @@
 #   4 squared is 16
 #   5 squared is 25
 #
-
-for i in 1..5
-  puts "#{i} squared is #{i ** 2}"
-end

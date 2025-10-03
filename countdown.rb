@@ -11,11 +11,3 @@
 #   Launch in 1...
 #   Liftoff! 🚀
 #
-
-i = 5
-while i > 0 do
-  puts "Launch in #{i}..."
-  i -= 1
-end
-
-puts "Liftoff! 🚀"
